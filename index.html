@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <h1>TODO ROPA DE MODA</h1>
+
+    <div id="botones">
+      <div class="boton">
+        <h4 class="boton-title">Remera</h4>
+        <button class="boton-boton" type="submit">Comprar</button>
+      </div>
+      <div class="boton">
+        <h4 class="boton-title">Remera larga</h4>
+        <button class="boton-boton" type="submit">Comprar</button>
+      </div>
+      <div class="boton">
+        <h4 class="boton-title">Pantalon</h4>
+        <button class="boton-boton" type="submit">Comprar</button>
+      </div>
+      <div class="boton">
+        <h4 class="boton-title">Buzo</h4>
+        <button class="boton-boton" type="submit">Comprar</button>
+      </div>
+      <div class="boton">
+        <h4 class="boton-title">Zapatillas</h4>
+        <button class="boton-boton" type="submit">Comprar</button>
+      </div>
+    </div>
+
+    <div id="carrito"></div>
+
+    <div>
+      <button class="vaciarCarrito">VACIAR CARRITO</button>
+    </div>
+
+    <form class="informacion">
+
+      <div class="contenido">
+
+        <div class="contenido-datos">
+          <label for="nombre">Nombre y Apellido</label>
+          <input type="text" id="nombre" />
+        </div>
+
+        <div class="contenido-datos">
+          <label for="exampleInputEmail1" class="form-label"
+            >Correo Electronico</label
+          >
+          <input type="email" id="correo" />
+        </div>
+        <div class="contenido-datos">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="enviar">Submit</button>
+      </div>
+
+    </form>
+
+    <div class="container">
+      <div class="informacionUsuario"></div>
+    </div>
+
+    <script src="./clase3.js"></script>
+    <div id="listado"></div>
+  </body>
+</html>
